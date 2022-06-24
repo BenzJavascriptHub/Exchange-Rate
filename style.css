@@ -91,3 +91,28 @@ button:focus {
     width: 200px;
   }
 }
+
+/* phone 手機尺寸 */
+/* 螢幕寬度小於500px */
+@media (max-width: 500px) {
+  .currency {
+    width: 100vw;
+    padding: 25px 10px;
+  }
+  #currency-one {
+    width: 45vw;
+  }
+  #amount-one {
+    width: 45vw;
+  }
+  #currency-two {
+    width: 45vw;
+  }
+  #amount-two {
+    width: 45vw;
+  }
+  .swap-rate-container {
+    width: 90vw;
+    margin: 0 auto;
+  }
+}
